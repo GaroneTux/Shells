@@ -123,7 +123,6 @@ case "$opcao" in
     echo
     read -p "digite o nome desejado ou <Crtl C> para sair:  " nomesnap
     vagrant snapshot save "$nomesnap"-$(date +%d_%H:%M)
-#    vagrant snapshot save VM-$(date +%d/%m/%y_%H:%M)
     vagrant snapshot list
     echo
 #    clear
