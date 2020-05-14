@@ -48,6 +48,7 @@ echo "===================================================="
 read -p "Digite a Opção desejada: " opcao
 
 #Rotinas:
+# >>>>>>>>>> - Ações na VM - <<<<<<<<<<
 case "$opcao" in
   1)
     echo "Iniciando VM - aguarde..."
@@ -95,6 +96,9 @@ case "$opcao" in
     exit 0
     clear
     ;;
+
+#>>>>>>>>>> - Gerenciar VM - <<<<<<<<<<
+ 
  D)
     echo " Removendo VM. . ."
     vagrant halt
