@@ -119,7 +119,7 @@ case "$opcao" in
     echo
     echo "1- Será adicionado data(dd) e hora(hh:mm) no nome."
     echo
-    echo "2- Escolha nomes curtos mas que você lembre-se do que se trata."
+    echo "2- Escolha nomes curtos mas que você lembre do que se trata."
     echo
     read -p "digite o nome desejado ou <Crtl C> para sair:  " nomesnap
     vagrant snapshot save "$nomesnap"-$(date +%d_%H:%M)
